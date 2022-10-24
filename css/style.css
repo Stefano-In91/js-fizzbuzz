@@ -14,3 +14,34 @@ body {
    font-size: 2rem;
    background-color: #083b4c;
 }
+.container {
+   max-width: 61.25rem;
+   margin: auto;
+}
+
+/*---------------
+   LISTATO
+---------------*/
+ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+li {
+   margin: 20px;
+   height: 100px;
+   width: 100px;
+   text-align: center;
+   line-height: 100px;
+   background-color: #1389b2;
+}
+.fizz {
+   background-color: #0cd6a1;
+}
+.buzz {
+   background-color: #ffd166;
+}
+.fizzbuzz {
+   background-color: #f0466f;
+}
