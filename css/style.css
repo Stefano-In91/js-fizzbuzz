@@ -11,8 +11,14 @@
    BODY
 ---------------*/
 body {
-   font-size: 2rem;
+   font-size: 1.5rem;
    background-color: #083b4c;
+}
+h1 {
+   font-size: 4rem;
+   text-align: center; 
+   margin: 50px; 
+   color: white;
 }
 .container {
    max-width: 61.25rem;
@@ -26,7 +32,6 @@ ul {
    list-style: none;
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
 }
 li {
    margin: 20px;
